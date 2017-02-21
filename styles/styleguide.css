@@ -1,0 +1,61 @@
+/*#### Colors ####*/
+.colors ul{
+display: flex;
+}
+
+.colors li{
+  height: 200px;
+  width: 50px;
+  border-radius: 16px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 32px;
+  }
+
+#color-1 {
+  background-color: #000000;
+}
+
+#color-2 {
+  background-color: #79704f;
+}
+
+#color-3 {
+  background-color: #c1ae6a;
+}
+
+#color-4 {
+  background-color: #d8ceb3;
+}
+
+#color-5 {
+  background-color: #fff600;
+}
+
+#color-6 {
+  background-color: #4deabb;
+}
+
+/*-- #### Styles Pour La construction des pages #### */
+ol{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  font-family: 'Butterfly Kids', cursive;
+  font-size: 28px;
+}
+
+li{
+  border: 0px solid #000;
+  width: 120px;
+  margin: 12px;
+}
+
+li img {
+  width: 100%;
+}
